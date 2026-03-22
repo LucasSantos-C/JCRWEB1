@@ -1,17 +1,23 @@
 header {
-    padding: 0.5px 3px;
+    padding: 10px;
     font-size: 14px;
     font-family: 'Rubik';
     background-color: rgb(78, 78, 235);
     color: white;
-    width: 100%;
+    width: 99%;
     margin: 0;
-    border-radius: 15px;
+    display: flex;
+    justify-self: top;
+    border-radius: 5px;
 }
 
-#titulo {
+#titulo{
     padding: 1px 100px;
-    justify-self: center;
+    margin: 20px auto;
+}
+
+#titulo::first-letter{
+    font-size: 50px;
 }
 
 p {
@@ -24,29 +30,44 @@ p {
     padding: 50px 250px;
     border-radius: 20px;
     width: 700px;
-    justify-self: center;
+    margin: 20px auto;
+}
+
+.container {
+    text-align: center;
 }
 
 .projeto { 
     font-family: 'Rubik';
     background-color: white;
-    padding: 50px 250px;
+    padding: 40px;
     border-radius: 20px;
     width: 700px;
-    justify-self: center;
-    display: flex;
+
+    display: inline-block;
+    text-align: left;
+
+    margin: 20px auto;
 }
 
 #Main {
     font-family: 'Rubik';
-    padding: 50px 270px;
+    padding: 40px;
+    width: 90%;
+    max-width: 700px;
     color: white;
-    background-color: rgb(78, 78, 235);
-    justify-self: center;
+    background-color: rgb(66, 66, 194);
+    margin: 20px auto;
+}
+
+#Main:hover {
+    background-color: rgb(78, 78, 235);;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 body {
-    background-color: rgb(182, 190, 190);
+    background-color: rgb(233, 242, 242);
 }
 
 footer{
@@ -55,4 +76,16 @@ footer{
     color: white;
     position: relative;
     font-family: 'Rubik';
+    border-radius: 20px;
+}
+
+.Habilidades{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    background-color: white;
+    justify-self: center;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 20px;
 }
