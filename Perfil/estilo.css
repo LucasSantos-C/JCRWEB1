@@ -58,6 +58,7 @@ p {
     color: white;
     background-color: rgb(66, 66, 194);
     margin: 20px auto;
+    transition: 0.3s;
 }
 
 #Main:hover {
@@ -88,4 +89,8 @@ footer{
     width: 700px;
     margin: 20px auto;
     border-radius: 20px;
+}
+
+.Habilidades:nth-child(odd){
+    color: rgb(76, 76, 231);
 }
