@@ -1,0 +1,42 @@
+# display: flex; ( identifica que vai ser flexbox)
+
+# flex-direction: row ou column;  (identifica o eixo principal e o perpendicular)
+
+# row-reverse ou column-reverse: muda o sentido dos elementos;
+
+# justify-content: flex-start ou flex-end ou flex-center ou space-between ou space-around  ( alinhar os elementos no eixo principal)
+
+# aling-items: flex-start ou flex-end ou center ou stretch; ( alinhar os elementos no eixo perpendicular)
+
+# flex-wrap: nowrap ou wrap ou wrap-reverse; (se pula linha entre os elementos)
+
+# aling-content: flex-start ou flex-end ou flex-center ou space-between ou space-around (alinhar todos os conteudos, em relação a página)
+
+# gap: espaçamento (px ou %) - vw = para se adequar ao tamanho da tela;
+
+# row-gap ou column- gap;
+
+# exemplo gap com vw: 
+.container {
+  display: flex;
+  gap: 2vw; /* O gap será 2% da largura da tela */
+}
+
+# ex com media queries (responsividade):
+.container {
+  display: flex;
+  gap: 10px; /* Gap padrão para mobile */
+}
+
+@media (min-width: 768px) {
+  .container {
+    gap: 20px; /* Gap maior para tablets/desktops */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    gap: 40px; /* Gap maior para telas grandes */
+  }
+}
+

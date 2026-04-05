@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Celulares (estilo base - Mobile First) */
+body { font-size: 14px; }
+
+/* Tablets (telas maiores que 768px) */
+@media (min-width: 768px) {
+    body { font-size: 16px; }
+}
+
+/* Desktops (telas maiores que 1024px) */
+@media (min-width: 1024px) {
+    .container { width: 960px; margin: 0 auto; }
+}
+
+# para responsividade zerar margin e padding com seletor universal e usar media queries para definir baseado no dispositivo;
+
+# imagens responsivas: max-width: 100%; height: auto;
+

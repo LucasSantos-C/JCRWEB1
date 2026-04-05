@@ -1,0 +1,85 @@
+# CSS é uma linguagem de estilização, usada para embelezar a página web.
+
+# <p style="color: blue; font-size: 20px;">Este é um parágrafo azul.</p> : CSS inline usado, dentro da tag no html.
+
+# <head>
+  <style>
+    body {
+      background-color: f0f0f0;
+    }
+    h1 {
+      color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <h1>Título da Página</h1>
+</body> : CSS interno, usado dentro da tag head no próprio arquivo HTML.
+
+# p {
+  line-height: 1.5;
+  color: #333;
+} : CSS externo, usado em um arquivo externo .css 
+
+# <link rel="stylesheet" href="style.css"> : dentro do head no HTML usamos a tag de link para conectar o arquivo .css ao arquivo .html
+
+# propriedade : valor; : para o css usamos basicamente essa escrita para adicionar nossos estilos
+
+# *{
+     seletor universal, coloca o estilo em toda página.
+}
+
+# No CSS existe uma hierarquia de estilo, indo de inline como mais prioritario ate externo como menos prioritario.
+
+# color: #Código_hexadecimal ou nome cor: para adicionar cor ao texto
+
+# font-size: tamanho da fonte
+
+# margin: tamanho da margem, é bom zera-lá ao iniciar o estilo (para maior controle)
+
+# padding: espaçamento entre o conteúdo e a borda.
+
+# border: tamanho da borda (px ou %), formato e cor.
+
+# box-sizing: border-box: altera o conteúdo e o pagging também (como se estilizasse todo bloquinho) ex: para aumentar um botão usando esse todo tamanho do botão cresce
+
+# box-sizing: content-box: altera somente o conteúdo, ex: para aumentar um botão, aumenta apenas a escrita de dentro do botão, não o tamanho dele.
+
+# background-color: cor de fundo da página.
+
+# font-family: mudar fonte.
+
+# font-weight: deixa a fonte em negrito (com mais destaque)
+
+# rem: unidade de medida relativa, bom para responsividade.
+
+# text- align: alinha o texto.
+
+# display: flex = transforma em flexbox
+
+# flex-direction: column ou row = como a página ficará direcionada.
+
+# gap: espaçamento entre todos os itens filhos.
+
+# width: largura
+
+# height: altura
+
+# border-radius: arredondar a borda
+
+# cursor: mudar o tipo do cursor 
+
+{ pointer: A "mãozinha" (usada para links e botões clicáveis).
+
+text: O símbolo de "I" (usado para indicar que o texto pode ser selecionado).
+
+wait: O ícone de carregamento (geralmente uma ampulheta ou círculo girando).
+
+help: Uma seta com um ponto de interrogação.
+
+not-allowed: Um círculo com um traço (indica que a ação é proibida).}
+
+# para padding coloca primeiro valor = vertical, segundo = horizontal.
+
+# .nome_classe = seletor de classe
+

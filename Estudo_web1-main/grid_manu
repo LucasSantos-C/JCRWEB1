@@ -1,0 +1,38 @@
+# display: grid;: Ativa o contexto de grid.
+
+# grid-template-columns: Define a largura das colunas.
+
+# grid-template-rows: Define a altura das linhas.
+
+# gap: Define o espaçamento entre as células.
+
+# exemplo:
+.container {
+  display: grid;
+  /* Cria 3 colunas: a primeira com 200px e as outras duas dividindo o resto igualmente */
+  grid-template-columns: 200px 1fr 1fr; 
+  /* Cria 2 linhas de 100px cada */
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+}
+
+# exemplo 2:
+.exemplo {
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 15px;
+}
+
+.header  { grid-area: header; background: #ff4757; }
+.sidebar { grid-area: sidebar; background: #2f3542; }
+.main    { grid-area: main; background: #70a1ff; }
+.footer  { grid-area: footer; background: #2ed573; }
+
+# Usado normalmente para montagem do da página como um todo (header, main, nav, footer) de maneira a alinhar melhor os elementos. Usado em conjunto com o flexbox.
+
+# grid = pág como um todo ou galeria + felxbox = elementos dentro da pág (botão,menus, barras)
+
