@@ -6,5 +6,7 @@ Repositório onde seram armazenados projetos de atividades da disciplina de Dese
   - **CSS3:** Design e Layout mais estilizados para o site;<br>
   - **Javascript:** Adição de funcionamentos e interatividade<br>
 
+   - **Bootstrap:** Framework de CSS e JS para estilização de paginas<br>
+
 ## Professor(a) Coordenador(a):
   - Ariadne Arrais Cruz
