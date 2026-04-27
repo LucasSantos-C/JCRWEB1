@@ -1,4 +1,3 @@
-// Classe de Alunos
 class Aluno {
     constructor(nome, idade){
         this.nome = nome;
@@ -14,7 +13,7 @@ class Aluno {
     }
 }
 
-// Adicionar Aluno
+
 function AddAlunos(alunos) {
     let nome = prompt("Digite o nome do aluno: ")
     let idade = parseInt(prompt("Digite a idade do aluno: "))
@@ -23,7 +22,7 @@ function AddAlunos(alunos) {
     console.log(`Aluno "${nome}" adicionado com sucesso!`)
 }
 
-// Listar Alunos
+
 function ListarAlunos(alunos) {
     if (alunos.length === 0) {
         console.log("Vetor Vazio!")
@@ -36,7 +35,6 @@ function ListarAlunos(alunos) {
 }
 
 
-// Buscar Aluno
 function BuscarAluno(alunos) {
     let nome = prompt("Digite o nome do aluno a ser buscado: ");
     let encontrado = alunos.find(aluno => aluno.nome === nome);
@@ -48,7 +46,7 @@ function BuscarAluno(alunos) {
     }
 }
 
-// Alterar Aluno
+
 function AlterAluno(alunos) {
     let nome = prompt("Digite um aluno a ser alterado: ");
 
@@ -69,7 +67,7 @@ function AlterAluno(alunos) {
     }
 }
 
-// Remover Aluno
+
 function PopAlunos(alunos) {
     let nome = prompt("Digite um novo nome a ser removido: ");
     let index = alunos.findIndex(aluno => aluno.nome === nome);
@@ -82,7 +80,7 @@ function PopAlunos(alunos) {
     }
 }
 
-// Main
+
 let option = 0;
 let alunos = [];
 
@@ -112,9 +110,3 @@ do{
             break;
     }
 } while(option != 6);
-
-
-
-
-
-
