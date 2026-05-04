@@ -1,0 +1,18 @@
+#main:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+#main {
+    transition: 0.1s;
+    border-color:blueviolet;
+    border: 50px;
+}
+
+#nome {
+    border-color: blueviolet;
+}
+
+nav {
+    background-color: blueviolet;
+}
