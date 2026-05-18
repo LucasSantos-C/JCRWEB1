@@ -1,0 +1,11 @@
+body {
+    background-image: url(Imagens/wallpaperflare.com_wallpaper.jpg);
+}
+
+#main {
+    background-color: rgb(39, 39, 39);
+    border-color: #bd1510;;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark" style="background-color: #bd1510;">
+        <div class="container-fluid" id="nav">
+            <a class="navbar-brand" href="#">
+            <img src="Imagens/claquete.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Tarefas
+            </a>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="card text-center" style="height: 30rem; width: 40rem;" id="main">
+            <h3 class="card-header">Buscar Filmes</h3>
+                <br>
+                <form id="formFilme">
+                    <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o título do Filme">
+
+                    <button type="submit" class="btn btn-success">Buscar</button>
+                    </div>
+                </form>
+                <br>
+        </div>
+    </div>
+    
+
+</body>
+</html>
